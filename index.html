@@ -1,18 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Koivusaari</title>
-    <link rel="stylesheet" href="resources/css/main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="resources/css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/7219567928.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="resources/javascript/main.js"></script>
+  </head>
+  <body>
+    <div id="home"></div>
     <div class="main__container">
-        <div class="header__container">
-            <h1>ERIK KOIVUSAARI<br>PORTFOLIO<br>22<span id="spacing">–––</span> 23</h1>
-            <img src="resources/images/stol.jpg" alt="">
+      <!--Burger meny-->
+      <!-- <div id="bars">
+        <i class="fa-solid fa-bars" onclick="toggleNav()"></i>
+        <div class="mobile__nav__list">
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#armature">ARMATURE</a></li>
+            <li><a href="#services">LOUNGECHAIR</a></li>
+            <li><a href="#kontakt">CHAIR</a></li>
+          </ul>
         </div>
+      </div> -->
+      <!--Header -->
+      <div class="header__container">
+        <h1>
+          ERIK KOIVUSAARI<br />PORTFOLIO<br />22<span id="spacing">––</span> 23
+        </h1>
+        <img src="resources/images/stol.jpg" alt="" />
+      </div>
+      <div class="location__container">
+        <h2>GOTHENBURG<span id="font">/</span>SWEDEN</h2>
+        <p>
+          Erik Koivusaari<br />
+          erik@koivusaari.se<br />
+          +46 734454856
+        </p>
+      </div>
     </div>
-</body>
+
+    <!--Armature-->
+    <div id="armature"></div>
+    <img id="armature1" src="resources/images/armature1.jpeg" alt="">
+    <div class="armature__container">
+        <img src="resources/images/armature2.jpeg" alt="">
+        <p>Armature<br><br>Table lamp in earthenware clay. The fixture is made with "slab" technology.</p>
+    </div>
+    <img id="armature3" src="resources/images/armature3.jpeg" alt="">
+    <img id="armature4" src="resources/images/armature4.jpeg" alt="">
+
+    <!--Lounge-->
+
+    <img id="lounge1" src="resources/images/lounge1.jpeg" alt="">
+    <p id="plounge1">Lounge armchair<br><br>Lounge armchair in aircraft veneer and birch. The legs are bent-glued in press molds. The seat and back tray are partly designed in cnc and planed by hand.</p>
+    <img id="lounge2" src="resources/images/lounge2.jpeg" alt="">
+    <img id="lounge3" src="resources/images/lounge3.jpeg" alt="">
+
+    <!--Stol-->
+
+    <img id="stol1" src="resources/images/stol.jpg" alt="">
+    <p id="pstol1">Chair<br><br>Turned seating furniture with fixed dimensions in maple and leather.</p>
+    <img id="stol2" src="resources/images/stol2.jpeg" alt="">
+    <p id="copy">&copy;</p>
+  </body>
 </html>

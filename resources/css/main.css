@@ -1,33 +1,183 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@font-face {
+  font-family: MontHeavy;
+  src: url("../fonts/MontDemo-Heavy.otf");
+}
+@font-face {
+  font-family: MontLight;
+  src: url("../fonts/MontDemo-ExtraLight.otf");
+}
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    background-color: #ebe9e4;
-    font-family: 'Barlow', sans-serif;
+  margin: 0 auto;
+  background-color: rgb(235, 233, 228);
+  font-family: "MontHeavy";
+  max-width: 450px;
 }
 
+/*Burger meny*/
+
+#bars {
+  position: fixed;
+  right: 10px;
+}
+
+#bars i {
+  position: absolute;
+  right: 10px;
+}
+
+.mobile__nav__list {
+  display: none;
+  position: absolute;
+  top: 15px;
+  right: 5px;
+}
+
+.mobile__nav__list > ul {
+  list-style-type: none;
+  padding: 0;
+}
+.mobile__nav__list > ul > li {
+  margin: 2px;
+  text-align: right;
+}
+.mobile__nav__list > ul > li > a {
+  color: black;
+  text-decoration: none;
+  font-family: MontLight;
+  font-size: 14px;
+  background-color: rgba(235, 233, 228, 0.8);
+  padding: 5px 3px 2px 3px;
+  border-radius: 2px;
+}
+
+/* End burger meny*/
+
 .main__container {
-    width: 90%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .header__container {
-    text-align: center;
+  text-align: center;
 }
 
 .header__container h1 {
-    font-weight: 800;
-    letter-spacing: 10px;
+  font-weight: 800;
+  letter-spacing: 10px;
 }
 
 .header__container img {
-    width: 300px;
+  width: 300px;
 }
 #spacing {
-    letter-spacing: -2px;
+  letter-spacing: -6px;
+}
+
+.location__container {
+}
+
+.location__container h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.location__container p {
+  font-size: 16px;
+  font-weight: 200;
+  font-family: MontLight;
+}
+
+#font {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#armature1 {
+  width: 290px;
+  margin-top: 100px;
+  margin-left: auto;
+  display: block;
+}
+
+.armature__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 100px;
+}
+.armature__container img {
+  width: 140px;
+  margin-left: 30px;
+}
+.armature__container p {
+  width: 130px;
+  text-align: right;
+  font-family: MontLight;
+  font-size: 12px;
+  margin-right: 30px;
+}
+#armature3 {
+    width: 200px;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+#armature4 {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#lounge1 {
+    width: 230px;
+    margin-top: 60px;
+}
+#plounge1 {
+    width: 150px;
+    font-family: MontLight;
+    font-size: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: 30px;
+    text-align: right;
+}
+#lounge2 {
+    width: 320px;
+    margin-top: 100px;
+}
+#lounge3 {
+    width: 170px;
+    display: block;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+#stol1 {
+    width: 280px;
+    margin-left: 30px;
+    margin-top: 120px;
+}
+#pstol1 {
+    width: 150px;
+    font-family: MontLight;
+    font-size: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: 30px;
+    text-align: right;
+}
+
+#stol2 {
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#copy {
+    text-align: center;
+    font-family: MontLight;
+    font-size: 30px;
 }
